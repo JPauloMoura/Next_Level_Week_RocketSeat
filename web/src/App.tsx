@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState} from 'react';
 import './App.css';
 
+import Routes from './routes';
+
 function App() {
+
   return (
-    <h1>Hello World tudo bom</h1>
+    <Routes />
          
   );
 }
